@@ -3,5 +3,25 @@
 @import "typography";
 
 body {
-  background: $c-gray;
+  margin: 0;
+  padding: 0;
+}
+
+#field {
+  width: 200px;
+  height: 150px;
+  border: 10px groove black;
+  background-color: #0f0;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#ball {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  transition: all 1s;
 }
