@@ -9,6 +9,25 @@ h1 {
   font-style: normal; }
 
 body {
-  background: #eee; }
+  margin: 0;
+  padding: 0; }
+
+#field {
+  width: 200px;
+  height: 150px;
+  border: 10px groove black;
+  background-color: #0f0;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer; }
+
+#ball {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
 
 /*# sourceMappingURL=main.css.map */
